@@ -6,11 +6,11 @@ Team Name: Travelers
 Project Name: The Traveler
 
 # Project concept:
-Story: Main character is transported to medieval/fantasy times, and is trying to find his evil ancestors (BABY) that have ruined his life.
+Story: Main character is transported to medieval/fantasy times, and is trying to find his evil ancestors (Boss BABY) that have ruined his life.
 
 Sensei: Reanu Keeves, “tutorial guide” an AI - future techStarting setting: castle
 
-General Flow: main character gets hinted to find 3 distinct potions to KILL THIS BABY
+General Flow: main character gets hinted to find 3 distinct potions to kill the boss baby
 
 Features:
 - “Move, go” : north,west,south,east
