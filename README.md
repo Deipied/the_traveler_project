@@ -51,3 +51,6 @@ anti-shield potion: (needed to remove bosses shield for hit chance increase)
 
 # starting inventory
 Gun, bullets (5)
+
+# Room Diagram
+[Diagram link](https://docs.google.com/drawings/d/1_ybfLzBiHIwmHWU_Nan2W2k6W9mNbvIVSj6Cn-EH_Fg/edit)
