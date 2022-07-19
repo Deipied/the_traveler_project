@@ -3,7 +3,7 @@ Text based adventure game on the console.
 
 Team Name: Travelers
 
-Project Name: The Traveler
+Project Name: The Traveler 
 
 # Project concept:
 Story: Main character is transported to medieval/fantasy times, and is trying to find his evil ancestors (Boss BABY) that have ruined his life.
