@@ -11,6 +11,8 @@ import java.util.Scanner;
 class TravelerApp {
     private boolean gameOver = false;
     Prompter prompter = new Prompter(new Scanner(System.in));
+    SplashScreen screen = new SplashScreen();
+    Intro intro = new Intro();
 
 
 //    initialize calls methods
@@ -41,8 +43,8 @@ class TravelerApp {
     }
 
     private void welcome() {
-//        splashScreen();
-//        intro.introduction();
+        screen.splashScreen();
+        intro.introduction();
         System.out.println("WELCOME");
     }
 
