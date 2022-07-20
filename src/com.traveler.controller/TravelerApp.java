@@ -1,6 +1,7 @@
 package com.traveler.controller;
 
 import com.apps.util.Prompter;
+import com.traveler.view.Intro;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,7 +12,7 @@ import java.util.Scanner;
 class TravelerApp {
     private boolean gameOver = false;
     Prompter prompter = new Prompter(new Scanner(System.in));
-    SplashScreen screen = new SplashScreen();
+//    SplashScreen screen = new SplashScreen();
     Intro intro = new Intro();
 
 
@@ -43,7 +44,7 @@ class TravelerApp {
     }
 
     private void welcome() {
-        screen.splashScreen();
+//        screen.splashScreen();
         intro.introduction();
         System.out.println("WELCOME");
     }
