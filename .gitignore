@@ -1,9 +1,6 @@
 #folder
 .idea/
 
-# iml file
-the_traveler_project.iml
-
 # Compiled class file
 *.class
 
