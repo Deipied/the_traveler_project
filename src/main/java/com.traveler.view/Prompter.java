@@ -23,7 +23,7 @@ public class Prompter {
         String var4 = null;
         boolean var5 = false;
 
-        while(!var5) {
+        while(true) {
             System.out.print(var1);
             var4 = this.scanner.nextLine();
             var5 = var4.matches(var2);

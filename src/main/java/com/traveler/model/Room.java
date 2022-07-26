@@ -1,11 +1,6 @@
 package com.traveler.model;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.Arrays;
-import java.util.List;
 
 
 public class Room {
@@ -52,7 +47,7 @@ public class Room {
                     "{\"name\" : \"crypt\" ,\"desc\" : \"Locked room. You need a key to get in. Perhaps you collected one in your deadly defeat of the orc in the dining chamber. Beware of traps.\" ,\"item\" : \"confusion potion , shield potion\" ,\"east\" : \"great hall\"}," +
                     "{\"name\" : \"torture_chamber\" ,\"desc\" : \"you are in the torture chamber. be careful soldier,danger lurks ahead \" ,\"south\" : \"torture chamber\" ,\"east\" : \" crypt\"}," +
                     "{\"name\" : \"warlocks_chamber\" ,\"desc\" : \"Boss room. Racumen lurks nearby\" ,\"north\" : \"great hall\" }," +
-                    "{\"name\" : \"Ancient_study\" ,\"desc\" : \"Ancient study. Library of all the great books in the world \",\"west\" :\"dining chamber\"}]";
+                    "{\"name\" : \"Ancient_study\" ,\"desc\" : \"Library of all the great books in the world \",\"west\" :\"dining chamber\"}]";
 
 
     public void  getCurrentRoom() {
@@ -60,9 +55,9 @@ public class Room {
 
         try {
             System.out.println("test");
-            Room[] room = mapper.readValue(roomsArray, Room[].class);
+            Room[] rooms = mapper.readValue(roomsArray, Room[].class);
 
-            for (Room r : room) {
+            for (Room r : rooms) {
                 this.name = r.getName();
                 this.desc = r.getDesc();
                 this.item = r.getItem();

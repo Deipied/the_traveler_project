@@ -6,6 +6,7 @@ import com.traveler.view.Prompter;
 import com.traveler.view.Intro;
 import com.traveler.view.SplashScreens;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -24,7 +25,7 @@ class TravelerApp {
     ArrayList<String> dir= new ArrayList<String>();
 
 //    initialize calls methods
-    public void initialize() throws IOException {
+    public void initialize() throws IOException, IOException {
         dir.add("north");
         dir.add("south");
         dir.add("west");

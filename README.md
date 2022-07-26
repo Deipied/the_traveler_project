@@ -25,7 +25,7 @@ Features:
 “Run, flee” if able, exits combat
 “Use item” uses the item description if able
 
-- 5 rooms:
+- 5 room:
 “Description, directional (NWSE)”
 “NPC in the room”
 “Items in the room”
@@ -37,7 +37,7 @@ Charges spell, player dies if still in combat for 4 turns
 Certain items can affect behavior
 
 # items
-Lantern: Needed for all the rooms except Great Hall, if a player enters a room without a lantern they can not see anything and won’t be able to interact.
+Lantern: Needed for all the room except Great Hall, if a player enters a room without a lantern they can not see anything and won’t be able to interact.
 
 Keys: Crypt Room Key
 
